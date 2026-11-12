@@ -398,7 +398,7 @@ def generate_seating():
         if not remaining:
             return current.copy()
 
-        # Try the most frequent group first
+        # Try the most frequent group first..
         group_counts = {}
         for student in remaining:
             group_counts[student[2]] = (
